@@ -1,0 +1,39 @@
+.container {
+}
+.inputContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.input {
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 6px;
+  background: var(--white, #fff);
+  color: var(--gray-500, #6b7280);
+}
+
+.tos {
+  color: var(--gray-300, #d1d5db);
+
+  /* text-sm/leading-5/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.tosLink {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  color: var(--white, #fff);
+  &:hover {
+    cursor: pointer;
+  }
+}

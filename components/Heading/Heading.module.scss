@@ -1,0 +1,31 @@
+.container {
+  padding: 24px 0 48px 0;
+  align-self: stretch;
+}
+
+.fontStyles {
+  color: var(--white, #fff);
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 100% */
+
+  &.fontColorPrimary {
+    color: var(--white, #fff);
+  }
+
+  &.fontColorSecondary {
+    color: var(--indigo-400, #818cf8);
+  }
+}
+
+.subHeader {
+  padding-top: 20px;
+  color: var(--gray-300, #d1d5db);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 116.667% */
+}
